@@ -7,24 +7,13 @@ The workflow follows a Planner → Searcher → Synthesizer → Critic pipeline,
 
 
 ## High-Level Architecture
-                    ┌──────────────┐
-   Topic ──────────▶│  Supervisor  │
-                    └──────┬───────┘
-                           │
-                           ▼
-                ┌───────────────────────┐
-                │      Message Bus      │
-                │ Redis / In-Memory Bus │
-                └───────────────────────┘
-                   │       │       │
-                   ▼       ▼       ▼
-              Planner → Searcher → Synthesizer → Critic
-                                    ▲               │
-                                    └────Feedback───┘
-                                      (max 2 retries)
+                  
+<img width="1440" height="700" alt="image" src="https://github.com/user-attachments/assets/c6a2ea03-f78c-45bd-946e-dfac0ed17573" />
+
+  
 
 ## Folder Structure
-
+```
 multi_agent_research/
 │
 ├── src/
@@ -47,7 +36,7 @@ multi_agent_research/
 ├── sample_topics.json
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Setup
 
