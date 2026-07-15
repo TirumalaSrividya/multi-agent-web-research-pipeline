@@ -44,7 +44,7 @@ multi_agent_research/
 
 ## Clone Repository 
 ```
-git clone <repo_url>
+git clone https://github.com/TirumalaSrividya/multi-agent-web-research-pipeline
 cd multi_agent_research
 ```
 
