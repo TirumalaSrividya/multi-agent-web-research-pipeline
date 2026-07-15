@@ -42,19 +42,20 @@ multi_agent_research/
 
 ## Setup
 
-## Clone Repository 
+Clone Repository 
+
 ```
-git clone https://github.com/TirumalaSrividya/multi-agent-web-research-pipeline
-cd multi_agent_research
+git clone https://github.com/TirumalaSrividya/multi-agent-web-research-pipeline.git
+cd multi-agent-research-pipeline
 ```
 
-## Install Dependencies
+Install Dependencies
 ```
 pip install -r requirements.txt 
 pip install pytest
 ```
 
-## Run Pipeline
+**Run Pipeline**
 
 **Option 1. Run locally without docker**
 
@@ -90,7 +91,7 @@ docker compose down
 ```
 
 
-## Running Tests
+**Running Tests**
 ```
 pytest
  ```
