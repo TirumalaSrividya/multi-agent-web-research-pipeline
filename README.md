@@ -55,9 +55,9 @@ pip install -r requirements.txt
 pip install pytest
 ```
 
-**Run Pipeline**
+## Run Pipeline
 
-Run locally without docker
+**Run locally without docker**
 
 ```
 python -m src.main --topics-file sample_topics.json --output-dir outputs
@@ -72,11 +72,10 @@ python -m src.main \
 ```
 or 
 
-Run with Docker
+**Run with Docker**
 
-linux/mac
+linux/mac (If GNU Make is installed):
 
-GNU Make is installed:
 ```
 make run
 ```
